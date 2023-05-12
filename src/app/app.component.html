@@ -1,0 +1,17 @@
+<div class="root">
+
+  <div class="title">
+    <h3>{{ title }}</h3>
+    <div class="note">Angular {{ ngVersion.full }}</div>
+  </div>
+
+  <div class="links">
+    <a routerLink="/">Default Main app</a>
+    <a routerLink="/angular">Angular App</a>
+    <a routerLink="/app_svelte">Svelte App</a>
+    <a routerLink="/react">React App</a>
+  </div>
+
+  <router-outlet></router-outlet>
+
+</div>
